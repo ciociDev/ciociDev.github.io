@@ -12,33 +12,12 @@ html, body{
 	padding:0;
 }
 
-.navbar ul{
-	margin:0;
-	padding:0;
-}
-
-.navbar li{
-	display: inline;
-	padding: 0 7%;
-}
-
-.navbar a{
-	display: inline-block;
-	padding:.5em;
-	text-decoration: none;
-	color:white;
-	font-size: 1.5em;
-}
-
 .main-header{
 	text-align: center;
 	font-weight: lighter;
 	color:white;
 }
 
-.navbar a:hover{
-	color:red;
-}
 
 .titlu-principal{
 	text-align: center;
