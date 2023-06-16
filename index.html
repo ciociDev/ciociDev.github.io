@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>admitereLiceuBucuresti</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rasa&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="main-header">
+		<nav class="navbar">
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li><a href = "about.html">About</a></li>
+				<li><a href = "resurse.html">Resurse</a></li>
+			</ul>
+			<h1 class ="titlu-principal">Admitere Liceu Bucuresti</h1>
+		</nav>
+	</header>
+
+	<br>
+
+	<div class ="sec1">
+		<h2>Unde as putea sa intru cu media (implicit si pozitia) mea?</h2>
+		<div class="introducere">
+			<p>Tocmai ai primit rezultatele initiale de la Evaluarea Nationala (media EN si pozitia in ierarhia judeteana). Ai luat mai putin decat ai fi prezis (ni se intampla mai tuturor:)), dar esti nesigur in privinta contestatiilor deoarece iti e frica sa nu ti se scada?  Te aflii inantea completarii optiunnilor si nu ai idei? Poate iti putem oferi o idee. Iata cele mai "bune"* 5 specializari la care probabil** intri cu pozitia ta:
+		</div>
+
+		<br>
+
+		<h2>De ce folosim pozitia in detrimentul mediei?</h2>
+		<div class="introducere">
+			<p>Poate parea un pic ciudat sa fii intrebat <i>pe ce pozitie te aflii in clasament?</i> deoarece majoritatea lumii intreaba <i>cat ai luat?</i>, referindu-se, evident, la media ta de admitere.
+			</p>
+		</div>
+	</div>
+
+	<div class = "sec2">
+		<h3>Selecteaza profilurile care te intereseza:</h3>
+		<p>( te rugam, selecteaza macar o optinue, apasa pe "Gata", completeaza pozitia/media si apasa pe "Continua")</p>
+		<p>Daca te-ai razgandit cu privire la un profil si ai completat deja, completeaza din nou si apasa pe "Gata":)</p>
+		<form class ="formular">
+			<input type="checkbox" id="mi">Mate-info</input><br>
+			<input type="checkbox" id="sn">Stiinte ale Naturii</input><br>
+			<input type="checkbox" id="fi">Filologie</input><br>
+			<input type="checkbox" id="ss">Stiinte sociale</input><br>
+			<input type="checkbox" id="all">Toate</input><br>
+		</form>
+		<br>
+		<button type="button" id="dezv">Gata</button>
+		<!--<button onclick="alert(filo)">Click</button>verificare-->
+	</div>
+
+	<div >
+		<h2 class = "inv">Care este pozitia ta in clasament?</h2><br><br>
+		<center><input type="number" id="pozClasament"></center><br>
+		<center><button type="button" id="myButton" >Continua</button></center><br>
+
+
+		<div class ="afisare_poz">
+			<p id = "lic1"></p>
+			<p id = "lic2"></p>
+			<p id = "lic3"></p>
+			<p id = "lic4"></p>
+			<p id = "lic5"></p>
+		</div>
+	</div>
+
+	<br><br>
+
+	<div class ="sec3">
+		<h2 class ="mis">Vrei totusi sa folosesti media (poate nu ai primit rezultatele inca)?</h2>
+		<div class="introducere">
+			<p>Completeaza mai jos:) Datele folosite sunt cele din 2020 - cand mediile de admitere au fost mult mai mari ca in alti ani - asa ca daca iti spune ca ai intrat undeva bazat pe media ta de anul acesta, probabil ai intrat! Felicitari! Totusi, daca nu ai intrat acolo unde iti doreai, stai linistit si nu fi descurajat, exista sanse destul de mari sa intri (mai ales daca esti la limita:)). (Completeaza cu un nr precum: 9.81, 7.45, 8.00)
+			</p>
+			<br><br>
+			<div>
+				<h2 class = "inv">Care este media ta de admitere?</h2><br><br>
+				<center><input type="number" id="medClasament" step=0.01></center><br>
+				<center><button type="button" id="myButton2" >Continua</button></center><br>
+
+				<div class ="afisare_med">
+					<p id = "mlic1"></p>
+					<p id = "mlic2"></p>
+					<p id = "mlic3"></p>
+					<p id = "mlic4"></p>
+					<p id = "mlic5"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>

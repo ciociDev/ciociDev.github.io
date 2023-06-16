@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Rasa', serif;
+	font-size:25px;
+
+}
+
+html, body{
+	margin:0;
+	padding:0;
+}
+
+.navbar ul{
+	margin:0;
+	padding:0;
+}
+
+.navbar li{
+	display: inline;
+	padding: 0 7%;
+}
+
+.navbar a{
+	display: inline-block;
+	padding:.5em;
+	text-decoration: none;
+	color:white;
+	font-size: 1.5em;
+}
+
+.main-header{
+	text-align: center;
+	font-weight: lighter;
+	color:white;
+}
+
+.navbar a:hover{
+	color:red;
+}
+
+.titlu-principal{
+	text-align: center;
+	font-size: 3em;
+	margin:0.3em;
+}
+
+.main-header{
+	background-color:rgba(0, 0, 0, 0.4);
+	background-image:url("pozaDeLookStudio-freelicense.jpg");
+	background-blend-mode: multiply;
+	background-size:cover;
+	padding-bottom: 30px;
+}
+
+.sec1{
+	margin:1em 2em;
+
+}
+
+.introducere{
+	margin-right: 3em;
+	margin-left: 3em;
+}
+
+.inv{
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+	margin:0;
+}
+
+.sec2{
+	margin:2em 3em;
+}
+
+#myButton, #myButton2{
+	margin-top:1em;
+	border-radius:8px;
+	font-size: 2em;
+	padding: 0.2em 0.5em;
+}
+
+#pozClasament, #medClasament{
+	border-radius: 8px;
+	text-align: center;
+	font-weight: 800;
+	height:3em;
+	border:solid 3px;
+	font-size: 35px;
+}
+
+.sec3{
+	margin:2.2em;
+}
+
+.formular{
+	margin:0 1.2em;
+}
+
+.afisare_poz{
+	margin-left:2.3em;
+}
+
+#dezv{
+	border-radius:8px;
+}
